@@ -6,3 +6,4 @@ RUN echo "Hello, from container $(hostname)" > /usr/share/nginx/html/index.html 
     && mkdir /data
 EXPOSE 80
 CMD nginx -g 'dameon off;'jp
+# comment
